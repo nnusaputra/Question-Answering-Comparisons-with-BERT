@@ -1,5 +1,5 @@
 # Question-Answering-Comparisons-with-BERT
 
-This analysis was completed with a fellow student, Ryan Sawaski, where we explore the problem of question answering using BERT. A brief description is included below. 
+This analysis was completed with a fellow student, Ryan Sawasaki, where we explore the problem of question answering using BERT. A brief description is included below. 
 
 While recent advances in natural language processing models have helped solve reading comprehension tasks, progress on open-domain question answering has been challenging. In this paper, we analyze the two potential factors that make open-domain question answering a more difficult task: context length and question generation. We focus on the Stanford Question Answering Dataset (SQuAD 2.0) as our baseline reading comprehension dataset and Google Natural Questions (NQ) as our open-domain dataset, which we split into two datasets aimed at isolating the context length and question generation factors to evaluate their impact on model performance. Using a BERT-base model, we fine-tune the model on the three datasets and evaluate their performance using an F1 score metric. We conclude that the challenges designed into the NQ dataset and open-domain question answering datasets are predominantly due to longer contexts rather than the methodology used to generate questions.
